@@ -1,0 +1,69 @@
+{
+  "n_requerido_por_grupo_MDE5pct_sin_CUPED": 9689,
+  "n_requerido_por_grupo_MDE5pct_con_CUPED": 3221,
+  "n_real_por_grupo": 2000,
+  "SRM_p_value": 1.0,
+  "balance_pre_periodo_p_value": 0.2911,
+  "efecto_sin_CUPED": {
+    "lift_rel": 0.0343,
+    "IC95_abs": [
+      -578.0,
+      1466.0
+    ],
+    "p_value": 0.3944,
+    "IC95_bootstrap_rel": [
+      -0.0422,
+      0.1192
+    ]
+  },
+  "efecto_con_CUPED": {
+    "lift_rel": 0.0691,
+    "IC95_rel": [
+      0.0236,
+      0.1146
+    ],
+    "p_value": 0.002933,
+    "theta": 0.834,
+    "reduccion_varianza": 0.668
+  },
+  "guardrail_margen_pp": {
+    "diff_pp": -0.387,
+    "IC95_pp": [
+      -0.692,
+      -0.081
+    ],
+    "p_value": 0.013
+  },
+  "por_sector_CUPED": {
+    "Industria": {
+      "n": 1754,
+      "lift_rel": 0.1436,
+      "IC95_rel": [
+        0.0768,
+        0.2104
+      ],
+      "p": 0.0,
+      "p_holm": 0.0001
+    },
+    "Mineria": {
+      "n": 999,
+      "lift_rel": -0.0265,
+      "IC95_rel": [
+        -0.1271,
+        0.0742
+      ],
+      "p": 0.606,
+      "p_holm": 0.606
+    },
+    "Pesca": {
+      "n": 1247,
+      "lift_rel": 0.0483,
+      "IC95_rel": [
+        -0.0264,
+        0.1231
+      ],
+      "p": 0.2048,
+      "p_holm": 0.4097
+    }
+  }
+}
